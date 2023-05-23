@@ -116,6 +116,39 @@ form textarea{
     margin-bottom: 10px;
 }
 
+#form-borda{
+    border: 1px solid #4DBA78;
+}
+
 iframe{
     width: 100%;
+}
+
+
+footer{
+    background-image: url(../img/footer.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+footer div{
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+footer div p{
+    font-size: 1.2rem; 
+    padding-top: 10px;
+  }
+
+  footer form{
+    padding-top: 10px;
+  }
+
+.social{
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
 }
